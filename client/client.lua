@@ -319,7 +319,7 @@ end
 CreateThread(function()
 
 	Blipventacamaronesycangrejos = AddBlipForCoord(Config.ventacyc.x, Config.ventacyc.y, Config.ventacyc.z)
-
+SetBlipAsShortRange(Blipventacamaronesycangrejos, true)
 SetBlipSprite(Blipventacamaronesycangrejos, 266)
 SetBlipColour(Blipventacamaronesycangrejos, 47)
 SetBlipScale(Blipventacamaronesycangrejos, 1.5)
